@@ -1,3 +1,13 @@
+University: ITMO University
+Faculty: FICT
+Course: Введение в веб технологии
+Year: 2025/2026
+Group: U4125
+Author: Ganin Mikhail Alexandrovich
+Lab: Lab1
+Date of create: 16.03.2026
+Date of finished: 17.03.2026
+
 1. Проверил версию docker --version  
 ![Фото](./img1.png)
 2. Запустил тестовый контейнер: docker run hello-world ![Фото](./img2.png)
