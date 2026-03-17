@@ -1,0 +1,44 @@
+site_name: Михаил Ганин — Персональный сайт
+site_description: Персональный сайт студента ИТМО
+site_author: Михаил Ганин
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Резюме: resume.md
+  - Достижения: achievements.md
+  - Контакты: contacts.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mishaganin
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/mishaganin
+  generator: false
+
+copyright: "&copy; 2026 Михаил Ганин"
